@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class start_menu_script : MonoBehaviour {
-    public string scene_name;
+public class End : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -14,9 +13,8 @@ public class start_menu_script : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    public void NextScene()
+    public void exit()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+        Application.Quit();
     }
 }
