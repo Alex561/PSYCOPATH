@@ -11,7 +11,12 @@ public class Player_Behavior : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
+        if (collision.tag == "Hide")
+        {
+            Debug.Log("barrel");
+            this.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
         if (collision.tag =="MusicBox")
         {
             Debug.Log("Pickup");
