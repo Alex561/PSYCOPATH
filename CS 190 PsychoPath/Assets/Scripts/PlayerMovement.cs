@@ -40,6 +40,12 @@ public class PlayerMovement : MonoBehaviour {
 
     public Vector2 rawAimingInput { get { return Format.mousePosInWorld() - transform.position; } }
 
+    //Hiding Mechanic Codes
+
+    public bool hide = false;
+
+
+
 
     private void Start() {
         rigid = GetComponent<Rigidbody2D>();
@@ -47,16 +53,23 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void Update() {
-        if (normalizedMovementInput.sqrMagnitude > 0) {
-            //if under power
-            rigid.velocity = Vector2.ClampMagnitude(Vector2.MoveTowards(rigid.velocity, maxSpeed * normalizedMovementInput, maxSpeed * accel * Time.deltaTime), maxSpeed);
-        } else {
-            //if drifting
 
-            rigid.velocity = Vector2.ClampMagnitude(Vector2.MoveTowards(rigid.velocity, Vector3.zero, maxSpeed * deccel * Time.deltaTime), maxSpeed);
+        if (!hide)
+        {
+            if (normalizedMovementInput.sqrMagnitude > 0)
+            {
+                //if under power
+                rigid.velocity = Vector2.ClampMagnitude(Vector2.MoveTowards(rigid.velocity, maxSpeed * normalizedMovementInput, maxSpeed * accel * Time.deltaTime), maxSpeed);
+            }
+            else
+            {
+                //if drifting
+
+                rigid.velocity = Vector2.ClampMagnitude(Vector2.MoveTowards(rigid.velocity, Vector3.zero, maxSpeed * deccel * Time.deltaTime), maxSpeed);
+            }
+
+            previousPos = transform.position;
         }
-
-        previousPos = transform.position;
     }
 
     private void FixedUpdate() {
