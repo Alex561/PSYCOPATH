@@ -16,14 +16,17 @@ public class Vision : MonoBehaviour {
     public bool chase = false;
 
     //Patrolls
-    public float timer = 5;//time per rotate
+    public float timer;//time per rotate
     float patroll_time;
 
     float targetRotation = 0;
 
+    bool move = false;
+    public bool coroutine;
 
 	// Use this for initialization
 	void Start () {
+        coroutine = true;
 
         rigid = GetComponentInParent<Rigidbody2D>();
         Parent_Hunter = transform.root.gameObject;//chasing elements
@@ -33,15 +36,26 @@ public class Vision : MonoBehaviour {
     }
 
 
-    private void patroll()
+    IEnumerator patroll()
     {
-         if (Time.time >= patroll_time)
-            {
+        coroutine = false;
+        if (Time.time >= patroll_time)
+        {
+            move = true;
 
-                targetRotation = Random.value * 360;
-            
-                patroll_time += timer;
-            }
+            //Debug.Log("waiting");
+            yield return new WaitForSeconds(1);
+          //  Debug.Log("turn");
+            targetRotation = Random.value * 360;
+            patroll_time += timer;
+
+        }
+        else {
+
+            move = false;
+        }
+        coroutine = true;
+   
     }
 
 
@@ -66,10 +80,24 @@ public class Vision : MonoBehaviour {
         }
         else
         {
+            if (coroutine == true)
+            {
+                StartCoroutine(patroll());
 
-            patroll();
+            }
             float angle = Mathf.MoveTowardsAngle(rigid.rotation, targetRotation, 100 * Time.deltaTime);
             rigid.transform.eulerAngles = new Vector3(0, 0, angle);
         }
+
+
     }
+
+    void FixedUpdate()
+    {
+        if (move == true)
+        {   
+
+            rigid.transform.Translate(Vector2.up * hunter_speed * Time.deltaTime);
+        }
+        }
 }

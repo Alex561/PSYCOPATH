@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEditor.SceneManagement;
 public class Player_Behavior : MonoBehaviour {
 
     bool can_Hide = false;
@@ -23,7 +23,8 @@ public class Player_Behavior : MonoBehaviour {
 
         if (collision.tag =="MusicBox")
         {
-            Debug.Log("Pickup");
+
+            GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1),Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)),Quaternion.identity) as GameObject;
             Destroy(collision.gameObject);
         }
 
@@ -34,9 +35,17 @@ public class Player_Behavior : MonoBehaviour {
                 Debug.Log("Clown sees you");
                 collision.GetComponent<Vision>().chase = true;
             }
-  
             }
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if( collision.gameObject.tag == "Clown")
+        {
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("ClownDeath");
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

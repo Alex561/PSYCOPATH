@@ -17,6 +17,6 @@ public class start_menu_script : MonoBehaviour {
 
     public void NextScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(scene_name);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Tina");
     }
 }
