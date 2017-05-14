@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Tina.unity
+- path: Assets/Scenes/ClownDeath.unity
   isLoaded: 1
   isActive: 1
