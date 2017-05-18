@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 879, y: 492}
   m_MaxSize: {x: 16004, y: 14042}
   vertical: 0
-  controlID: 1596
+  controlID: 3237
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 604, y: 492}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 1597
+  controlID: 3238
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 604, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 1598
+  controlID: 3239
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,9 +202,9 @@ MonoBehaviour:
     height: 397
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: acfbffff
-    m_LastClickedID: -1108
-    m_ExpandedIDs: e8dfffffb8e8ffffd4fbffff00000000
+    m_SelectedIDs: ce97ffff
+    m_LastClickedID: -26674
+    m_ExpandedIDs: ce97ffff70a1ffff3cb6ffff36c9ffffe8dfffffb8e8ffffd4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -315,9 +315,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.153468
+    m_Target: 16.5629
     speed: 2
-    m_Value: 7.153468
+    m_Value: 16.5629
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -421,8 +421,8 @@ MonoBehaviour:
     y: 0
     width: 509
     height: 418
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -446,8 +446,8 @@ MonoBehaviour:
     y: 418
     width: 1348
     height: 502
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -491,18 +491,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\xuanf\OneDrive\Documents\GitHub\PSYCOPATH\CS 190 PsychoPath
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64250000
-    m_LastClickedID: 9572
+    m_SelectedIDs: 54250000
+    m_LastClickedID: 9556
     m_ExpandedIDs: 000000001825000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -556,9 +556,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: acfbffff
-    m_LastClickedInstanceID: -1108
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: ce97ffff
+    m_LastClickedInstanceID: -26674
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 5a290000cc25000014f7ffffd82500008e240000aa240000283000001a4600005629000000000000462600006cbcfffffe2600005a260000f6250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
