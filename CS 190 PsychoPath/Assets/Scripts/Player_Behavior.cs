@@ -6,7 +6,7 @@ public class Player_Behavior : MonoBehaviour {
 
     bool can_Hide = false;
 
-    int counter = 0;
+    int counter = 1;
     GameObject frontWall;
     GameObject[] monsters;
 	// Use this for initialization
@@ -108,7 +108,7 @@ public class Player_Behavior : MonoBehaviour {
                 }
             }
         }
-        if (counter == 6)
+        if (counter == 7)
         {
             endGame();
         }
