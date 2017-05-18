@@ -22,13 +22,13 @@
 				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="28032928" Language="SFX">
+					<ShortName>__Mascot_Laugh DEATH.wav</ShortName>
+					<Path>SFX\__Mascot_Laugh DEATH_9E69E797.wem</Path>
+				</File>
 				<File Id="322074270" Language="SFX">
 					<ShortName>__Menu_Music.wav</ShortName>
 					<Path>SFX\__Menu_Music_9E69E797.wem</Path>
-				</File>
-				<File Id="485603174" Language="SFX">
-					<ShortName>__Mascot_Laugh_DEATH.wav</ShortName>
-					<Path>SFX\__Mascot_Laugh_DEATH_9E69E797.wem</Path>
 				</File>
 				<File Id="655103130" Language="SFX">
 					<ShortName>__SFX_Ending Death Sound.wav</ShortName>
@@ -54,10 +54,10 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4103674448" Name="AMB_Carousel" ObjectPath="\Events\Default Work Unit\AMB_Carousel" MaxAttenuation="50.000000"/>
+				<Event Id="4103674448" Name="AMB_Carousel" ObjectPath="\Events\Default Work Unit\AMB_Carousel" MaxAttenuation="60.000000"/>
 				<Event Id="1384162296" Name="Clown" ObjectPath="\Events\Default Work Unit\Clown" MaxAttenuation="25.000000"/>
 				<Event Id="1894625214" Name="Doll" ObjectPath="\Events\Default Work Unit\Doll" MaxAttenuation="25.000000"/>
-				<Event Id="2816637309" Name="IceCreamTruck" ObjectPath="\Events\Default Work Unit\IceCreamTruck" MaxAttenuation="50.000000"/>
+				<Event Id="2816637309" Name="IceCreamTruck" ObjectPath="\Events\Default Work Unit\IceCreamTruck" MaxAttenuation="60.000000"/>
 				<Event Id="284011213" Name="Music_bg_game" ObjectPath="\Events\Default Work Unit\Music_bg_game"/>
 				<Event Id="2785641797" Name="MusicBox" ObjectPath="\Events\Default Work Unit\MusicBox" MaxAttenuation="30.000000"/>
 				<Event Id="1930240631" Name="Robot" ObjectPath="\Events\Default Work Unit\Robot" MaxAttenuation="25.000000"/>

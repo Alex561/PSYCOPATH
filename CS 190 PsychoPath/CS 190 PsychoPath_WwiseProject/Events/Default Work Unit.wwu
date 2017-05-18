@@ -88,10 +88,10 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Play" ID="{80DEA516-B5A8-4365-9377-5FDB3D97DDA8}" ShortID="1053873808" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{063BDF81-E12A-4FD6-9282-FE2051B9D54C}" ShortID="751696902" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{E36DF4DE-CA24-4C99-984E-6081F2830FF5}" Global="false">
-									<ObjectRef Name="__Mascot_Laugh_DEATH" ID="{E60339AB-F2BA-4FEE-BE01-A828492FE0DA}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								<Element ID="{B78849A3-D2CE-480E-80C5-59941191E8FA}" Global="false">
+									<ObjectRef Name="__Mascot_Laugh DEATH" ID="{8470D623-E187-4E09-A5B8-E657665DF729}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
 						</Action>

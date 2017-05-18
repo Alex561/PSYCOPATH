@@ -614,25 +614,6 @@
 						<ActiveSource Name="__Doll_Laugh_DEATH" ID="{FA5612D8-B8C4-4A93-91B1-3B08B93AAFC7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="__Mascot_Laugh_DEATH" ID="{E60339AB-F2BA-4FEE-BE01-A828492FE0DA}" ShortID="35799569" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFB653AA-9E32-4BA6-AD20-993F64BE7436}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="__Mascot_Laugh_DEATH" ID="{37B15CBE-D02A-44AB-907F-2FF8DA866F1D}" ShortID="485603174">
-							<Language>SFX</Language>
-							<AudioFile>__Mascot_Laugh_DEATH.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="__Mascot_Laugh_DEATH" ID="{37B15CBE-D02A-44AB-907F-2FF8DA866F1D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="carousel_music" ID="{F17FD47D-5AD2-44FC-BFA7-D9F7DACDEDAC}" ShortID="1027575860" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -657,6 +638,25 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="carousel_music" ID="{7C8DA2C1-3291-4B39-AB32-C9A1FC3C13D6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="__Mascot_Laugh DEATH" ID="{8470D623-E187-4E09-A5B8-E657665DF729}" ShortID="283974396" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFB653AA-9E32-4BA6-AD20-993F64BE7436}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="__Mascot_Laugh DEATH" ID="{00C4E993-A299-4771-B364-2014C9778AF1}" ShortID="28032928">
+							<Language>SFX</Language>
+							<AudioFile>__Mascot_Laugh DEATH.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="__Mascot_Laugh DEATH" ID="{00C4E993-A299-4771-B364-2014C9778AF1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

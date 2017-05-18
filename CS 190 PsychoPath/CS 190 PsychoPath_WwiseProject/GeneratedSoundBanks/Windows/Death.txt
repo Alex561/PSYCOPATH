@@ -5,8 +5,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	2276324068	Death_robot			\Default Work Unit\Death_robot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	28032928	__Mascot_Laugh DEATH	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Mascot_Laugh DEATH_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Mascot_Laugh DEATH		245632
 	322074270	__Menu_Music	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Menu_Music_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Menu_Music		6983384
-	485603174	__Mascot_Laugh_DEATH	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Mascot_Laugh_DEATH_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Mascot_Laugh_DEATH		6983384
 	655103130	__SFX_Ending Death Sound	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__SFX_Ending Death Sound_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\__SFX_Ending Death Sound		6983384
 	746598491	__Clown_Laugh_DEATH	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Clown_Laugh_DEATH_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Clown_Laugh_DEATH		6983384
 	1047467569	__Doll_Laugh_DEATH	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Doll_Laugh_DEATH_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Doll_Laugh_DEATH		6983384

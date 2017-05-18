@@ -97,7 +97,7 @@
 				</Attenuation>
 				<Attenuation Name="Environment" ID="{ADAF790D-1EFB-4003-A06A-7530A4F39FE4}" ShortID="823951332">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="50"/>
+						<Property Name="RadiusMax" Type="Real64" Value="60"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -113,7 +113,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>24.38832</XPos>
+											<YPos>-6.1144</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>41.34176</XPos>
+											<YPos>-16.61745</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>60</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
