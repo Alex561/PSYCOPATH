@@ -27,19 +27,31 @@ public class Player_Behavior : MonoBehaviour {
 
         if (collision.tag =="MusicBox")
         {
+            if (counter <= 2)
+            {
+                GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1), Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)), Quaternion.identity) as GameObject;
+            }
+            else if (counter <=4)
+            {
+                GameObject doll = Instantiate(Resources.Load("doll"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1), Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)), Quaternion.identity) as GameObject;
 
-            GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1),Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)),Quaternion.identity) as GameObject;
+            }
+            else if (counter <=6)
+            {
+                GameObject robot = Instantiate(Resources.Load("robot"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1), Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)), Quaternion.identity) as GameObject;
+
+            }
             Destroy(collision.gameObject);
             counter += 1;
         }
 
         if (collision.tag == "Clown")
             {
-            if (this.GetComponent<PlayerMovement>().hide == false)
-            {
-                Debug.Log("Clown sees you");
-                collision.GetComponent<Vision>().chase = true;
-            }
+               if (this.GetComponent<PlayerMovement>().hide == false)
+                {
+                    Debug.Log("Clown sees you");
+                    collision.GetComponent<Vision>().chase = true;
+                }
             }
         if (collision.tag == "Exit")
         {
@@ -50,10 +62,20 @@ public class Player_Behavior : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if( collision.gameObject.tag == "Obstacle")
+        if( collision.gameObject.tag == "ObstacleC")
         {
 
             UnityEngine.SceneManagement.SceneManager.LoadScene("ClownDeath");
+        }
+        if (collision.gameObject.tag == "ObstacleD")
+        {
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("DollDeath");
+        }
+        if (collision.gameObject.tag == "ObstacleR")
+        {
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("RobotDeath");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
