@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1902
     height: 920
-  m_MinSize: {x: 879, y: 492}
-  m_MaxSize: {x: 16004, y: 14042}
+  m_MinSize: {x: 877, y: 471}
+  m_MaxSize: {x: 16002, y: 14021}
   vertical: 0
-  controlID: 3237
+  controlID: 3962
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1348
     height: 920
-  m_MinSize: {x: 604, y: 492}
-  m_MaxSize: {x: 12004, y: 14042}
+  m_MinSize: {x: 602, y: 471}
+  m_MaxSize: {x: 12002, y: 14021}
   vertical: 1
-  controlID: 3238
+  controlID: 3963
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,10 +145,10 @@ MonoBehaviour:
     y: 0
     width: 1348
     height: 418
-  m_MinSize: {x: 604, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 602, y: 221}
+  m_MaxSize: {x: 12002, y: 4021}
   vertical: 0
-  controlID: 3239
+  controlID: 3964
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,8 +167,8 @@ MonoBehaviour:
     y: 0
     width: 327
     height: 418
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -202,9 +202,9 @@ MonoBehaviour:
     height: 397
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce97ffff
-    m_LastClickedID: -26674
-    m_ExpandedIDs: ce97ffff70a1ffff3cb6ffff36c9ffffe8dfffffb8e8ffffd4fbffff00000000
+    m_SelectedIDs: acfbffff
+    m_LastClickedID: -1108
+    m_ExpandedIDs: 6e85ffffbe89ffffce97ffff70a1ffff3cb6ffff36c9ffffe8dfffffb8e8ffffd4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -281,14 +281,14 @@ MonoBehaviour:
     width: 508
     height: 397
   m_SceneLighting: 1
-  lastFramingTime: 429.48734636537137
+  lastFramingTime: 1103.704702698154
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.3164773, y: -4.2328787, z: 0}
+    m_Target: {x: 3.733104, y: -12.56884, z: 0}
     speed: 2
-    m_Value: {x: -0.3164773, y: -4.2328787, z: 0}
+    m_Value: {x: 3.733104, y: -12.56884, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -315,9 +315,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.5629
+    m_Target: 19.682352
     speed: 2
-    m_Value: 16.5629
+    m_Value: 19.682352
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -491,18 +491,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\xuanf\OneDrive\Documents\GitHub\PSYCOPATH\CS 190 PsychoPath
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 54250000
-    m_LastClickedID: 9556
+    m_SelectedIDs: 64250000
+    m_LastClickedID: 9572
     m_ExpandedIDs: 000000001825000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -556,10 +556,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ce97ffff
-    m_LastClickedInstanceID: -26674
+    m_SelectedInstanceIDs: acfbffff
+    m_LastClickedInstanceID: -1108
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 5a290000cc25000014f7ffffd82500008e240000aa240000283000001a4600005629000000000000462600006cbcfffffe2600005a260000f6250000
+    m_ExpandedInstanceIDs: 5a290000cc25000014f7ffffd82500008e240000aa240000283000001a4600005629000000000000462600006cbcfffffe2600005a260000f625000098250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

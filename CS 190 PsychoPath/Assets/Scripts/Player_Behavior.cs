@@ -55,7 +55,7 @@ public class Player_Behavior : MonoBehaviour {
             }
         if (collision.tag == "Exit")
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("ClownDeath");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Win");
         }
 
     }
