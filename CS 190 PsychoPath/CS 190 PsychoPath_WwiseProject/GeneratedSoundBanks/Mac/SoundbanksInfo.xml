@@ -63,6 +63,10 @@
 				<Event Id="1930240631" Name="Robot" ObjectPath="\Events\Default Work Unit\Robot" MaxAttenuation="25.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="103035798" Language="SFX">
+					<ShortName>__Enviornment Background Noise_new.wav</ShortName>
+					<Path>SFX\__Enviornment Background Noise_new_9E69E797.wem</Path>
+				</File>
 				<File Id="204120475" Language="SFX">
 					<ShortName>robot_servo_move.wav</ShortName>
 					<Path>SFX\robot_servo_move_9E69E797.wem</Path>
@@ -102,10 +106,6 @@
 				<File Id="783914461" Language="SFX">
 					<ShortName>__Clown_Laugh.wav</ShortName>
 					<Path>SFX\__Clown_Laugh_71A82093.wem</Path>
-				</File>
-				<File Id="956977808" Language="SFX">
-					<ShortName>__Enviornment Background Noise.wav</ShortName>
-					<Path>SFX\__Enviornment Background Noise_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1037329777" Language="SFX">
 					<ShortName>robot_spark_electricity.wav</ShortName>

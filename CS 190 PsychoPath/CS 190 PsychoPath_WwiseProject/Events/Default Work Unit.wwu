@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Music_bg_game" ID="{E59E818A-695D-4712-B9F4-A424FAB366CF}">
 					<ChildrenList>
-						<Action Name="Play" ID="{97381B4B-7313-49CE-A418-74482CE77A8E}" ShortID="689773818" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{DE836AA2-8C04-4945-B2D8-615A841919BA}" ShortID="149785971" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{7739C5A8-951D-4966-8D10-D47E41666060}" Global="false">
-									<ObjectRef Name="__Enviornment Background Noise" ID="{1E8F7CEC-6D07-4452-915F-58470DADD55C}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								<Element ID="{52C0C8A5-2BA6-4B0D-A191-82D9C1F22C65}" Global="false">
+									<ObjectRef Name="__Enviornment Background Noise_new" ID="{CCCEAA20-3EEF-4E3F-AA6C-3F58F7B22ABD}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
 						</Action>

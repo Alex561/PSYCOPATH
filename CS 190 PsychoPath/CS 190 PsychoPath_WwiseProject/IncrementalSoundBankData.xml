@@ -5,12 +5,12 @@
 			<Language ID="0">
 				<File Name="Death" Hash="1967832465" Timestamp="131396210053975534"/>
 				<File Name="Init" Hash="1022963288" Timestamp="131395606307892156"/>
-				<File Name="Main" Hash="1443830722" Timestamp="131396203557115474"/>
+				<File Name="Main" Hash="1668642391" Timestamp="131396230674484340"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3212754178" Timestamp="131396210054230511"/>
+				<File Name="" Hash="1150794950" Timestamp="131396230674824585"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,12 +19,12 @@
 			<Language ID="0">
 				<File Name="Death" Hash="1967832465" Timestamp="131396210055496509"/>
 				<File Name="Init" Hash="3806675398" Timestamp="131395602700617673"/>
-				<File Name="Main" Hash="1443830722" Timestamp="131396210055951856"/>
+				<File Name="Main" Hash="1668642391" Timestamp="131396230676805931"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="611773840" Timestamp="131396210056106846"/>
+				<File Name="" Hash="1531524368" Timestamp="131396230677095949"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

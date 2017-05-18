@@ -659,6 +659,25 @@
 						<ActiveSource Name="__Mascot_Laugh DEATH" ID="{00C4E993-A299-4771-B364-2014C9778AF1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="__Enviornment Background Noise_new" ID="{CCCEAA20-3EEF-4E3F-AA6C-3F58F7B22ABD}" ShortID="1014206994" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFB653AA-9E32-4BA6-AD20-993F64BE7436}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="__Enviornment Background Noise_new" ID="{76794E24-6874-4718-A7BD-A3BAFC9A6E63}" ShortID="103035798">
+							<Language>SFX</Language>
+							<AudioFile>__Enviornment Background Noise_new.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="__Enviornment Background Noise_new" ID="{76794E24-6874-4718-A7BD-A3BAFC9A6E63}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
