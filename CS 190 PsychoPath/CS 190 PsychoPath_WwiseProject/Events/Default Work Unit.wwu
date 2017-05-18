@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music_bg_game" ID="{E59E818A-695D-4712-B9F4-A424FAB366CF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{97381B4B-7313-49CE-A418-74482CE77A8E}" ShortID="689773818" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7739C5A8-951D-4966-8D10-D47E41666060}" Global="false">
+									<ObjectRef Name="__Enviornment Background Noise" ID="{1E8F7CEC-6D07-4452-915F-58470DADD55C}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clown" ID="{E6EFC55D-196E-496A-93BA-2E0591225556}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6CCD326D-E744-4BEE-9538-011ABDA9B1FB}" ShortID="557368625" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{139BC532-017A-4E95-8418-10B1F6130A3C}" Global="false">
+									<ObjectRef Name="Clown" ID="{93109874-6334-43BC-AC38-EA90B9EAE18D}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Doll" ID="{18F7420C-2DE7-443E-ACF9-B140B213035D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BD2B435C-67D1-4AF0-AC59-02857E3C06E5}" ShortID="340131578" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E79E5431-F99B-410B-8234-0F58208AD5AB}" Global="false">
+									<ObjectRef Name="Doll" ID="{DA6706AD-2D9D-4D87-9C68-1A1F4DCC207F}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Robot" ID="{D02E0DB7-B7E9-42D6-90FE-2BE19A08BB28}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8702E7D4-C2CC-4955-AEAE-EAA001940C0D}" ShortID="20465618" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DA1248F0-054B-4DFC-A13F-B9A6653BE963}" Global="false">
+									<ObjectRef Name="__Mascot_Buzzing Sound" ID="{A95607A7-FF1D-4601-8F87-A28935A1C18B}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{DCE6635D-E996-469C-A6AB-5DBFCEF6FEC4}" ShortID="30348075" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{114B1643-4953-4723-9265-EE9E084AAF13}" Global="false">
+									<ObjectRef Name="Robot" ID="{A4C8284D-F1FE-4D8B-82C0-DA7A0373125A}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{50F0AE1C-E436-4B0B-B1C8-E0A20119B9B3}" ShortID="145751467" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{04D0324D-2648-4A6F-BF05-E986DDC02A93}" Global="false">
+									<ObjectRef Name="robot_spark_electricity" ID="{C1C920E4-8EC5-4508-9104-2F5310D6127F}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_clown" ID="{520347EB-7FE3-46AF-BBC4-1BDA93AC702B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{87E3619F-AE63-4C4E-A572-91F06A94C919}" ShortID="1037533710" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7762CF9C-7D2D-4CB0-93BC-0C7D43DD1861}" Global="false">
+									<ObjectRef Name="__SFX_Ending Death Sound" ID="{C7903054-8067-4973-B3D7-FB88DAA7CF9C}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{C8004049-BEC1-4AB9-B1E9-5A2A63DF1172}" ShortID="355523569" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0858E6E0-2BFC-4F9E-BB6B-5E3CB81201E7}" Global="false">
+									<ObjectRef Name="__Clown_Laugh_DEATH" ID="{A7F0A19C-1739-4AFB-AC64-5038D45D6CCB}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_robot" ID="{87DB5FDA-2AE9-4369-B585-45C19F1A85C9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CEA37617-F3DC-4B1A-BD76-CABD19157503}" ShortID="803294760" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A17AAEA7-A29A-40C6-8530-B3E2DEAAE212}" Global="false">
+									<ObjectRef Name="__SFX_Ending Death Sound" ID="{C7903054-8067-4973-B3D7-FB88DAA7CF9C}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{80DEA516-B5A8-4365-9377-5FDB3D97DDA8}" ShortID="1053873808" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E36DF4DE-CA24-4C99-984E-6081F2830FF5}" Global="false">
+									<ObjectRef Name="__Mascot_Laugh_DEATH" ID="{E60339AB-F2BA-4FEE-BE01-A828492FE0DA}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_doll" ID="{D077BF77-2A80-4FA9-9E5E-883D97AD815E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6E83EC70-227A-4BD1-B1FB-C71629EF3679}" ShortID="174969232" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{905A4CEF-A8A6-421C-BCF5-3C4226CF2F77}" Global="false">
+									<ObjectRef Name="__SFX_Ending Death Sound" ID="{C7903054-8067-4973-B3D7-FB88DAA7CF9C}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{976E667B-406C-4402-9AD8-3B54E86623B3}" ShortID="10834067" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8BF2E50A-3751-483D-B5CE-6392E8743E7D}" Global="false">
+									<ObjectRef Name="__Doll_Laugh_DEATH" ID="{93F98C05-8A37-4F32-98D7-1452DF747679}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Win" ID="{79984FFC-F088-4108-AC80-200506215D11}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8500313D-24CA-4BC3-AB37-E98D5D1FF6C6}" ShortID="508356510" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B9B056F3-C4D8-441A-969D-963A5FC2B2E9}" Global="false">
+									<ObjectRef Name="__Menu_Music" ID="{7F3C1912-A9F3-4821-BF8D-EFCE343D3889}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicBox" ID="{B1A9AD25-DCC1-4262-A3E5-198BA4A762B1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{606858E3-9157-4916-813F-6655C169439F}" ShortID="982542918" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C695A73E-8492-469B-80AC-9EA5F5785211}" Global="false">
+									<ObjectRef Name="__SFX_Music Box Music" ID="{FC1E6659-B8BB-4AEC-BDB8-E7F45C266739}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Carousel" ID="{133FE2DD-57F2-44DC-9762-CFAE76DD767F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{392E2AF2-E5F5-4E58-86C1-36777C0199DE}" ShortID="980926734" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8C8B1CFF-24CA-4100-A369-212164AAE3E5}" Global="false">
+									<ObjectRef Name="carousel_music" ID="{F17FD47D-5AD2-44FC-BFA7-D9F7DACDEDAC}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IceCreamTruck" ID="{29033471-D0E3-47A8-AFFB-782E3354C04B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{77F4DA2C-A4D4-4E38-9E3F-C33E4583C47A}" ShortID="227706617" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{35FA35CA-5962-491D-9A7E-360B845A5236}" Global="false">
+									<ObjectRef Name="__Enviornment_Ice Cream Truck Song" ID="{DAD78FE6-9E68-4E33-A025-A97256BF3D84}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

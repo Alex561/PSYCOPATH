@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FB5CB53-B55E-42E0-BC47-E934C7A5C4FD}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9FB5CB53-B55E-42E0-BC47-E934C7A5C4FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4476C418-FB92-431D-BAC9-35DABFB8DEA5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MusicBox" ID="{B1A9AD25-DCC1-4262-A3E5-198BA4A762B1}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot" ID="{D02E0DB7-B7E9-42D6-90FE-2BE19A08BB28}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Doll" ID="{18F7420C-2DE7-443E-ACF9-B140B213035D}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_Carousel" ID="{133FE2DD-57F2-44DC-9762-CFAE76DD767F}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_bg_game" ID="{E59E818A-695D-4712-B9F4-A424FAB366CF}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="IceCreamTruck" ID="{29033471-D0E3-47A8-AFFB-782E3354C04B}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Clown" ID="{E6EFC55D-196E-496A-93BA-2E0591225556}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Death" ID="{12450B50-2205-4A6E-8838-13E8E2AFDE84}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Win" ID="{79984FFC-F088-4108-AC80-200506215D11}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Death_robot" ID="{87DB5FDA-2AE9-4369-B585-45C19F1A85C9}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Death_clown" ID="{520347EB-7FE3-46AF-BBC4-1BDA93AC702B}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Death_doll" ID="{D077BF77-2A80-4FA9-9E5E-883D97AD815E}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
