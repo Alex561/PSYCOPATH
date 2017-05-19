@@ -59,13 +59,14 @@
 				<Event Id="1894625214" Name="Doll" ObjectPath="\Events\Default Work Unit\Doll" MaxAttenuation="25.000000"/>
 				<Event Id="2816637309" Name="IceCreamTruck" ObjectPath="\Events\Default Work Unit\IceCreamTruck" MaxAttenuation="60.000000"/>
 				<Event Id="284011213" Name="Music_bg_game" ObjectPath="\Events\Default Work Unit\Music_bg_game"/>
-				<Event Id="2785641797" Name="MusicBox" ObjectPath="\Events\Default Work Unit\MusicBox" MaxAttenuation="30.000000"/>
+				<Event Id="2785641797" Name="MusicBox" ObjectPath="\Events\Default Work Unit\MusicBox" MaxAttenuation="20.000000"/>
+				<Event Id="3940140778" Name="MusicBox_new" ObjectPath="\Events\Default Work Unit\MusicBox_new" MaxAttenuation="20.000000"/>
 				<Event Id="1930240631" Name="Robot" ObjectPath="\Events\Default Work Unit\Robot" MaxAttenuation="25.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="103035798" Language="SFX">
 					<ShortName>__Enviornment Background Noise_new.wav</ShortName>
-					<Path>SFX\__Enviornment Background Noise_new_9E69E797.wem</Path>
+					<Path>SFX\__Enviornment Background Noise_new_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="204120475" Language="SFX">
 					<ShortName>robot_servo_move.wav</ShortName>
@@ -78,6 +79,10 @@
 				<File Id="279843786" Language="SFX">
 					<ShortName>__Mascot_Laugh (1).wav</ShortName>
 					<Path>SFX\__Mascot_Laugh (1)_9E69E797.wem</Path>
+				</File>
+				<File Id="378762434" Language="SFX">
+					<ShortName>__Enviornment Background Low Pulsation.wav</ShortName>
+					<Path>SFX\__Enviornment Background Low Pulsation_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="507916557" Language="SFX">
 					<ShortName>__Enviornment_Ice Cream Truck Song.wav</ShortName>

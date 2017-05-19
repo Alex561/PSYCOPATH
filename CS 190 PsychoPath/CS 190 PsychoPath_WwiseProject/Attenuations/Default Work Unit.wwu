@@ -51,7 +51,7 @@
 				</Attenuation>
 				<Attenuation Name="MusicBox" ID="{66D7F11D-9BF0-46E2-918F-D453A0A8830D}" ShortID="962850161">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -67,12 +67,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>4.15153846153846</XPos>
+											<XPos>8.30307692307692</XPos>
 											<YPos>-1.01503</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>20</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="779278001" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Death</ObjectPath>
+			<ShortName>Death</ShortName>
+			<Path>Death.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1871169887" Name="Death_clown" ObjectPath="\Events\Default Work Unit\Death_clown"/>
+				<Event Id="1011886111" Name="Death_doll" ObjectPath="\Events\Default Work Unit\Death_doll"/>
+				<Event Id="2276324068" Name="Death_robot" ObjectPath="\Events\Default Work Unit\Death_robot"/>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="28032928" Language="SFX">
+					<ShortName>__Mascot_Laugh DEATH.wav</ShortName>
+					<Path>SFX\__Mascot_Laugh DEATH_9E69E797.wem</Path>
+				</File>
+				<File Id="322074270" Language="SFX">
+					<ShortName>__Menu_Music.wav</ShortName>
+					<Path>SFX\__Menu_Music_9E69E797.wem</Path>
+				</File>
+				<File Id="655103130" Language="SFX">
+					<ShortName>__SFX_Ending Death Sound.wav</ShortName>
+					<Path>SFX\__SFX_Ending Death Sound_9E69E797.wem</Path>
+				</File>
+				<File Id="746598491" Language="SFX">
+					<ShortName>__Clown_Laugh_DEATH.wav</ShortName>
+					<Path>SFX\__Clown_Laugh_DEATH_9E69E797.wem</Path>
+				</File>
+				<File Id="1047467569" Language="SFX">
+					<ShortName>__Doll_Laugh_DEATH.wav</ShortName>
+					<Path>SFX\__Doll_Laugh_DEATH_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4103674448" Name="AMB_Carousel" ObjectPath="\Events\Default Work Unit\AMB_Carousel" MaxAttenuation="60.000000"/>
+				<Event Id="1384162296" Name="Clown" ObjectPath="\Events\Default Work Unit\Clown" MaxAttenuation="25.000000"/>
+				<Event Id="1894625214" Name="Doll" ObjectPath="\Events\Default Work Unit\Doll" MaxAttenuation="25.000000"/>
+				<Event Id="2816637309" Name="IceCreamTruck" ObjectPath="\Events\Default Work Unit\IceCreamTruck" MaxAttenuation="60.000000"/>
+				<Event Id="284011213" Name="Music_bg_game" ObjectPath="\Events\Default Work Unit\Music_bg_game"/>
+				<Event Id="2785641797" Name="MusicBox" ObjectPath="\Events\Default Work Unit\MusicBox" MaxAttenuation="20.000000"/>
+				<Event Id="3940140778" Name="MusicBox_new" ObjectPath="\Events\Default Work Unit\MusicBox_new" MaxAttenuation="20.000000"/>
+				<Event Id="1930240631" Name="Robot" ObjectPath="\Events\Default Work Unit\Robot" MaxAttenuation="25.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="103035798" Language="SFX">
+					<ShortName>__Enviornment Background Noise_new.wav</ShortName>
+					<Path>SFX\__Enviornment Background Noise_new_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="204120475" Language="SFX">
+					<ShortName>robot_servo_move.wav</ShortName>
+					<Path>SFX\robot_servo_move_9E69E797.wem</Path>
+				</File>
+				<File Id="257159643" Language="SFX">
+					<ShortName>__Mascot_Advertisement VOX.wav</ShortName>
+					<Path>SFX\__Mascot_Advertisement VOX_9E69E797.wem</Path>
+				</File>
+				<File Id="279843786" Language="SFX">
+					<ShortName>__Mascot_Laugh (1).wav</ShortName>
+					<Path>SFX\__Mascot_Laugh (1)_9E69E797.wem</Path>
+				</File>
+				<File Id="378762434" Language="SFX">
+					<ShortName>__Enviornment Background Low Pulsation.wav</ShortName>
+					<Path>SFX\__Enviornment Background Low Pulsation_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="507916557" Language="SFX">
+					<ShortName>__Enviornment_Ice Cream Truck Song.wav</ShortName>
+					<Path>SFX\__Enviornment_Ice Cream Truck Song_516CEF47.wem</Path>
+				</File>
+				<File Id="512743422" Language="SFX">
+					<ShortName>carousel_music.wav</ShortName>
+					<Path>SFX\carousel_music_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="530498253" Language="SFX">
+					<ShortName>__SFX_Music Box Music.wav</ShortName>
+					<Path>SFX\__SFX_Music Box Music_4EE5E153.wem</Path>
+				</File>
+				<File Id="561978454" Language="SFX">
+					<ShortName>clown_horn_fast.wav</ShortName>
+					<Path>SFX\clown_horn_fast_9E69E797.wem</Path>
+				</File>
+				<File Id="584338411" Language="SFX">
+					<ShortName>__Doll_Laugh.wav</ShortName>
+					<Path>SFX\__Doll_Laugh_64663C77.wem</Path>
+				</File>
+				<File Id="625982094" Language="SFX">
+					<ShortName>__Mascot_Buzzing Sound.wav</ShortName>
+					<Path>SFX\__Mascot_Buzzing Sound_7EB86A50.wem</Path>
+				</File>
+				<File Id="783914461" Language="SFX">
+					<ShortName>__Clown_Laugh.wav</ShortName>
+					<Path>SFX\__Clown_Laugh_71A82093.wem</Path>
+				</File>
+				<File Id="1037329777" Language="SFX">
+					<ShortName>robot_spark_electricity.wav</ShortName>
+					<Path>SFX\robot_spark_electricity_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

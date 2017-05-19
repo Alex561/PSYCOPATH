@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{4476C418-FB92-431D-BAC9-35DABFB8DEA5}">
 					<ObjectInclusionList>
+						<ObjectRef Name="MusicBox_new" ID="{F86B3BB9-968D-41D8-AC5D-B954AD98D479}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MusicBox" ID="{B1A9AD25-DCC1-4262-A3E5-198BA4A762B1}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot" ID="{D02E0DB7-B7E9-42D6-90FE-2BE19A08BB28}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Doll" ID="{18F7420C-2DE7-443E-ACF9-B140B213035D}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>

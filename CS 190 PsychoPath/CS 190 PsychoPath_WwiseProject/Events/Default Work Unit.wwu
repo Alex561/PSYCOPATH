@@ -12,6 +12,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{DC5B319A-6939-4437-AC17-10568AF2EE71}" ShortID="458154766" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7B9FE69B-4F61-479E-9ABE-5EAEE3366F0A}" Global="false">
+									<ObjectRef Name="__Enviornment Background Low Pulsation" ID="{226095B8-A05B-4CE4-823F-C6E322CF26CA}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Clown" ID="{E6EFC55D-196E-496A-93BA-2E0591225556}">
@@ -154,6 +161,17 @@
 							<ElementList>
 								<Element ID="{35FA35CA-5962-491D-9A7E-360B845A5236}" Global="false">
 									<ObjectRef Name="__Enviornment_Ice Cream Truck Song" ID="{DAD78FE6-9E68-4E33-A025-A97256BF3D84}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicBox_new" ID="{F86B3BB9-968D-41D8-AC5D-B954AD98D479}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9765CF93-AB58-4981-ACE3-168003FCAF00}" ShortID="554863073" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{55E421F7-3987-45DA-A23E-F755A7ED71B4}" Global="false">
+									<ObjectRef Name="__SFX_Music Box Music" ID="{FC1E6659-B8BB-4AEC-BDB8-E7F45C266739}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
 						</Action>
