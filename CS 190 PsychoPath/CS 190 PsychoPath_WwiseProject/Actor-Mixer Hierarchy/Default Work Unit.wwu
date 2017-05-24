@@ -81,6 +81,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="__Menu_Music" ID="{7F3C1912-A9F3-4821-BF8D-EFCE343D3889}" ShortID="885525281" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
@@ -551,7 +558,7 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-30</Value>
+								<Value>-22</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -617,7 +624,17 @@
 				<Sound Name="carousel_music" ID="{F17FD47D-5AD2-44FC-BFA7-D9F7DACDEDAC}" ShortID="1027575860" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>46</Value>
+							</ValueList>
+						</Property>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -660,6 +677,14 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="__Enviornment Background Noise_new" ID="{CCCEAA20-3EEF-4E3F-AA6C-3F58F7B22ABD}" ShortID="1014206994" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
@@ -676,6 +701,33 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="__Enviornment Background Noise_new" ID="{76794E24-6874-4718-A7BD-A3BAFC9A6E63}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="__Enviornment Background Low Pulsation" ID="{226095B8-A05B-4CE4-823F-C6E322CF26CA}" ShortID="573029404" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFB653AA-9E32-4BA6-AD20-993F64BE7436}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="__Enviornment Background Low Pulsation" ID="{8BB12A06-81B5-4A4C-87F3-B290AACFEF65}" ShortID="378762434">
+							<Language>SFX</Language>
+							<AudioFile>__Enviornment Background Low Pulsation.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="__Enviornment Background Low Pulsation" ID="{8BB12A06-81B5-4A4C-87F3-B290AACFEF65}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

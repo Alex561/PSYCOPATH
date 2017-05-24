@@ -1,0 +1,106 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 750M (ID=0xfe4)
+    Vendor:   NVIDIA
+    VRAM:     1991 MB
+    Driver:   10.18.13.6839
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\Psychopath_Data\Managed\System.dll (this message is harmless)
+desktop: 3200x1800 60Hz; virtual: 3200x1800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.267333 ms
+WwiseUnity: Initialize sound engine ...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+WwiseUnity: Sound engine initialized.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.203682 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 515.
+Total: 0.355962 ms (FindLiveObjects: 0.054583 ms CreateObjectMapping: 0.036855 ms MarkObjects: 0.236530 ms  DeleteObjects: 0.026592 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1514)
+
+The referenced script on this Behaviour (Game Object 'Clown') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1514)
+
+The referenced script on this Behaviour (Game Object 'Clown') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Clown') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1514)
+
+The referenced script on this Behaviour (Game Object 'Clown') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Clown') is missing!
+ 
+(Filename:  Line: 1743)
+
+Clown sees you
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Clown sees you
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Clown sees you
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Clown sees you
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Clown sees you
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Clown sees you
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.192461 ms
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 406.
+Total: 0.846751 ms (FindLiveObjects: 0.078843 ms CreateObjectMapping: 0.068579 ms MarkObjects: 0.552837 ms  DeleteObjects: 0.145090 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 54a8 -> priority: 1 
+  Thread -> id: 17d0 -> priority: 1 
+  Thread -> id: 57d4 -> priority: 1 
+  Thread -> id: 42ec -> priority: 1 
