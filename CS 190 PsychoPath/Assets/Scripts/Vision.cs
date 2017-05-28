@@ -12,7 +12,7 @@ public class Vision : MonoBehaviour {
     public float hunter_speed = 4000; //MaxDistance
     public float acceleration = 10; //hunter acceleration
 
-
+    bool spawn = true;
     public bool chase = false;
 
     //Patrolls
@@ -26,10 +26,7 @@ public class Vision : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-
-        
-
+     
         coroutine = true;
 
         rigid = GetComponentInParent<Rigidbody2D>();
@@ -37,8 +34,14 @@ public class Vision : MonoBehaviour {
 
         player = player = GameObject.FindGameObjectWithTag("Player"); // setup for look at 2D
         patroll_time -= timer;
+        StartCoroutine(sTime());
     }
 
+    IEnumerator sTime()
+    {
+        yield return new WaitForSeconds(1);
+        spawn = false;
+    }
 
     IEnumerator patroll()
     {
@@ -84,7 +87,7 @@ public class Vision : MonoBehaviour {
         }
         else
         {
-            if (coroutine == true)
+            if (coroutine == true&& !spawn)
             {
                 StartCoroutine(patroll());
 
