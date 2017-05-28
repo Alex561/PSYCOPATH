@@ -10,7 +10,9 @@ public class Player_Behavior : MonoBehaviour {
     int counter = 1;
     GameObject frontWall;
     GameObject[] monsters;
-	// Use this for initialization
+    // Use this for initialization
+
+
 	void Start () {
 
         Sprite player = this.GetComponent<SpriteRenderer>().sprite;
@@ -30,16 +32,19 @@ public class Player_Behavior : MonoBehaviour {
         {
             if (counter <= 2)
             {
-                GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1), Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)), Quaternion.identity) as GameObject;
+          
+                GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(Random.Range(this.transform.position.x + 20.0f, this.transform.position.x - 20.0f ), Random.Range(this.transform.position.y + 20.0f, this.transform.position.y + 20.0f * -1)), Quaternion.identity) as GameObject;
+                
+
             }
             else if (counter <=4)
             {
-                GameObject doll = Instantiate(Resources.Load("doll"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1), Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)), Quaternion.identity) as GameObject;
+                GameObject doll = Instantiate(Resources.Load("doll"), new Vector2(Random.Range(this.transform.position.x + 20.0f, this.transform.position.x - 20.0f), Random.Range(this.transform.position.y + 20.0f, this.transform.position.y + 20.0f * -1)), Quaternion.identity) as GameObject;
 
             }
             else if (counter <=6)
             {
-                GameObject robot = Instantiate(Resources.Load("robot"), new Vector2(Random.Range(this.transform.position.x + 10.0f, this.transform.position.x + 10.0f * -1), Random.Range(this.transform.position.y + 10.0f, this.transform.position.y + 10.0f * -1)), Quaternion.identity) as GameObject;
+                GameObject robot = Instantiate(Resources.Load("robot"), new Vector2(Random.Range(this.transform.position.x + 20.0f, this.transform.position.x - 20.0f), Random.Range(this.transform.position.y + 20.0f, this.transform.position.y + 20.0f * -1)), Quaternion.identity) as GameObject;
 
             }
             Destroy(collision.gameObject);
@@ -145,4 +150,6 @@ public class Player_Behavior : MonoBehaviour {
         }
 
     }
+
+
 }

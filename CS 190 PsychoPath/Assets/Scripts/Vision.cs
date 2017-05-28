@@ -26,6 +26,10 @@ public class Vision : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+
+        
+
         coroutine = true;
 
         rigid = GetComponentInParent<Rigidbody2D>();
