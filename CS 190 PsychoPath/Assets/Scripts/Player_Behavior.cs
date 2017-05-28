@@ -28,23 +28,31 @@ public class Player_Behavior : MonoBehaviour {
 
         }
 
-        if (collision.tag =="MusicBox")
+        if (collision.tag == "MusicBox")
         {
+            float x = Random.Range(this.transform.position.x + 15.0f, this.transform.position.x - 15.0f);
+            while (x > 58 | x < -58)
+            {
+                x = Random.Range(this.transform.position.x + 15.0f, this.transform.position.x - 15.0f);
+            }
+            float y = Random.Range(this.transform.position.y + 15.0f, this.transform.position.y + 15.0f * -1);
+            while (y > 48 | y<-18)
+            {
+                y = Random.Range(this.transform.position.y + 15.0f, this.transform.position.y + 15.0f * -1);
+            }
             if (counter <= 2)
             {
-          
-                GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(Random.Range(this.transform.position.x + 15.0f, this.transform.position.x - 15.0f ), Random.Range(this.transform.position.y + 15.0f, this.transform.position.y + 15.0f * -1)), Quaternion.identity) as GameObject;
-                
+                GameObject clown = Instantiate(Resources.Load("clown"), new Vector2(x,y), Quaternion.identity) as GameObject;          
 
             }
             else if (counter <=4)
             {
-                GameObject doll = Instantiate(Resources.Load("doll"), new Vector2(Random.Range(this.transform.position.x + 15.0f, this.transform.position.x - 15.0f), Random.Range(this.transform.position.y + 15.0f, this.transform.position.y + 15.0f * -1)), Quaternion.identity) as GameObject;
+                GameObject doll = Instantiate(Resources.Load("doll"), new Vector2(x, y), Quaternion.identity) as GameObject;
 
             }
             else if (counter <=6)
             {
-                GameObject robot = Instantiate(Resources.Load("robot"), new Vector2(Random.Range(this.transform.position.x + 15.0f, this.transform.position.x - 15.0f), Random.Range(this.transform.position.y + 15.0f, this.transform.position.y + 15.0f * -1)), Quaternion.identity) as GameObject;
+                GameObject robot = Instantiate(Resources.Load("robot"), new Vector2(x, y), Quaternion.identity) as GameObject;
 
             }
             Destroy(collision.gameObject);
