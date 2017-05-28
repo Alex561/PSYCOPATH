@@ -72,7 +72,7 @@ public class Vision : MonoBehaviour {
         //chasing Player
         if(chase)
         {
-
+            hunter_speed = 12;
             float angle = 0; //look at 2D
             Vector3 relative = rigid.transform.InverseTransformPoint(player.transform.position);
             angle = Mathf.Atan2(relative.x, relative.y) * Mathf.Rad2Deg;
@@ -82,7 +82,7 @@ public class Vision : MonoBehaviour {
             Prey = GameObject.FindGameObjectWithTag("Player").transform.position;
             Vector2 targetDirection = Prey - this.transform.position;
             targetDirection.Normalize();
-            rigid.velocity = Vector2.MoveTowards(rigid.velocity, hunter_speed*targetDirection, Time.deltaTime *acceleration);
+            rigid.velocity = Vector2.MoveTowards(rigid.velocity, hunter_speed*targetDirection, 1);
 
         }
         else
