@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	284011213	Music_bg_game			\Default Work Unit\Music_bg_game	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	103035798	__Enviornment Background Noise_new	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Enviornment Background Noise_new_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Enviornment Background Noise_new		3491756
+	378762434	__Enviornment Background Low Pulsation	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Windows\SFX\__Enviornment Background Low Pulsation_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Enviornment Background Low Pulsation		3491756
+

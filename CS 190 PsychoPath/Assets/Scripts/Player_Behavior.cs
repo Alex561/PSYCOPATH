@@ -55,6 +55,10 @@ public class Player_Behavior : MonoBehaviour {
                 GameObject robot = Instantiate(Resources.Load("robot"), new Vector2(x, y), Quaternion.identity) as GameObject;
 
             }
+
+            //stop the music box sound
+            AkSoundEngine.ExecuteActionOnEvent(3940140778, AkActionOnEventType.AkActionOnEventType_Stop, collision.gameObject, 1);
+
             Destroy(collision.gameObject);
             counter += 1;
         }

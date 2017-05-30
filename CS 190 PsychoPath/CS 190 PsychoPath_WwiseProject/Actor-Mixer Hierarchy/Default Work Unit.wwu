@@ -82,6 +82,7 @@
 				</Sound>
 				<Sound Name="__Menu_Music" ID="{7F3C1912-A9F3-4821-BF8D-EFCE343D3889}" ShortID="885525281" Type="SoundFX">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-16</Value>
@@ -98,6 +99,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="__Menu_Music" ID="{BCE70E3F-96E4-489D-A3DB-A9D0F1AF46C0}" ShortID="322074270">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="9.90239389377493"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="10.912394157885"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>__Menu_Music.wav</AudioFile>
 						</AudioFileSource>
@@ -728,6 +734,44 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="__Enviornment Background Low Pulsation" ID="{8BB12A06-81B5-4A4C-87F3-B290AACFEF65}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="_Clown_Music_Box" ID="{1CF18D24-743A-4B70-88E1-81F60B8AE784}" ShortID="979340717" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFB653AA-9E32-4BA6-AD20-993F64BE7436}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="_Clown_Music_Box" ID="{C5BC6682-32CB-4635-8422-EE46FCFCC596}" ShortID="941270571">
+							<Language>SFX</Language>
+							<AudioFile>_Clown_Music_Box.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="_Clown_Music_Box" ID="{C5BC6682-32CB-4635-8422-EE46FCFCC596}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="_Doll_Music_Box" ID="{AB400D0A-DED8-4C88-BE60-2E6F14D85F7D}" ShortID="504501586" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{630D18B2-2FE6-4FF7-A942-53A44A179604}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFB653AA-9E32-4BA6-AD20-993F64BE7436}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="_Doll_Music_Box" ID="{312B7D1B-7974-4385-B152-31246CBA7761}" ShortID="839444971">
+							<Language>SFX</Language>
+							<AudioFile>_Doll_Music_Box.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="_Doll_Music_Box" ID="{312B7D1B-7974-4385-B152-31246CBA7761}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

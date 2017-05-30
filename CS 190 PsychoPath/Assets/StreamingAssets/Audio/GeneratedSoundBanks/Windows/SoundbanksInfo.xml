@@ -28,7 +28,7 @@
 				</File>
 				<File Id="322074270" Language="SFX">
 					<ShortName>__Menu_Music.wav</ShortName>
-					<Path>SFX\__Menu_Music_9E69E797.wem</Path>
+					<Path>SFX\__Menu_Music_49D988B1.wem</Path>
 				</File>
 				<File Id="655103130" Language="SFX">
 					<ShortName>__SFX_Ending Death Sound.wav</ShortName>
@@ -115,6 +115,38 @@
 				<File Id="1037329777" Language="SFX">
 					<ShortName>robot_spark_electricity.wav</ShortName>
 					<Path>SFX\robot_spark_electricity_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3604647259" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\Main_Menu"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="322074270" Language="SFX">
+					<ShortName>__Menu_Music.wav</ShortName>
+					<Path>SFX\__Menu_Music_49D988B1.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4273002286" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Instructions</ObjectPath>
+			<ShortName>Instructions</ShortName>
+			<Path>Instructions.bnk</Path>
+			<IncludedEvents>
+				<Event Id="284011213" Name="Music_bg_game" ObjectPath="\Events\Default Work Unit\Music_bg_game"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="103035798" Language="SFX">
+					<ShortName>__Enviornment Background Noise_new.wav</ShortName>
+					<Path>SFX\__Enviornment Background Noise_new_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="378762434" Language="SFX">
+					<ShortName>__Enviornment Background Low Pulsation.wav</ShortName>
+					<Path>SFX\__Enviornment Background Low Pulsation_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

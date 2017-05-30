@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID DEATH_ROBOT = 2276324068U;
         static const AkUniqueID DOLL = 1894625214U;
         static const AkUniqueID ICECREAMTRUCK = 2816637309U;
+        static const AkUniqueID MAIN_MENU = 2005704188U;
         static const AkUniqueID MUSIC_BG_GAME = 284011213U;
         static const AkUniqueID MUSICBOX = 2785641797U;
         static const AkUniqueID MUSICBOX_NEW = 3940140778U;
@@ -31,7 +32,9 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID DEATH = 779278001U;
+        static const AkUniqueID INSTRUCTIONS = 4273002286U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MAINMENU = 3604647259U;
     } // namespace BANKS
 
     namespace BUSSES

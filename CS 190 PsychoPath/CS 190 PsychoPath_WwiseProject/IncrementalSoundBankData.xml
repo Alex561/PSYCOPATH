@@ -3,28 +3,32 @@
 	<Platform GUID="{39044D66-9E58-43CC-AC6E-BBDA5D2CCC59}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Death" Hash="2805030716" Timestamp="131396266296441576"/>
+				<File Name="Death" Hash="2228844132" Timestamp="131405760599386928"/>
 				<File Name="Init" Hash="1022963288" Timestamp="131396266296631715"/>
-				<File Name="Main" Hash="3448299260" Timestamp="131396266295826135"/>
+				<File Name="Instructions" Hash="832889120" Timestamp="131405764385470183"/>
+				<File Name="Main" Hash="3448299260" Timestamp="131405764385925349"/>
+				<File Name="MainMenu" Hash="3684551033" Timestamp="131405764386165542"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4144961785" Timestamp="131396266296801835"/>
+				<File Name="" Hash="1901514213" Timestamp="131405764386405693"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{1F053EE2-AEED-440D-BFD3-254CAA9DB023}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Death" Hash="2805030716" Timestamp="131396266297932647"/>
+				<File Name="Death" Hash="2228844132" Timestamp="131405764387136200"/>
 				<File Name="Init" Hash="3806675398" Timestamp="131396266298072746"/>
-				<File Name="Main" Hash="3448299260" Timestamp="131396266297557380"/>
+				<File Name="Instructions" Hash="832889120" Timestamp="131405764091894076"/>
+				<File Name="Main" Hash="3448299260" Timestamp="131405763873091388"/>
+				<File Name="MainMenu" Hash="3684551033" Timestamp="131405764387391397"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="707234307" Timestamp="131396266298147792"/>
+				<File Name="" Hash="4165912935" Timestamp="131405764387561522"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

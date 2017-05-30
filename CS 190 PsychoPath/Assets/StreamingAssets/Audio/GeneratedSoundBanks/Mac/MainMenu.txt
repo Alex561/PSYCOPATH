@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2005704188	Main_Menu			\Default Work Unit\Main_Menu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	322074270	__Menu_Music	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Menu_Music_49D988B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Menu_Music		1925076
+
