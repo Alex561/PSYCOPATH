@@ -152,6 +152,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{113E9125-FF79-42EC-B92D-DA0B7AA663DF}" ShortID="272996958" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D430D099-00CD-4D57-BD6D-8DB966EB56E0}" Global="false">
+									<ObjectRef Name="_Clown_Music_Box_bass" ID="{74BCA5E8-3398-4C5B-8938-9CF7E1EA5AAA}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="MusicBox" ID="{B1A9AD25-DCC1-4262-A3E5-198BA4A762B1}">
@@ -204,6 +211,28 @@
 							<ElementList>
 								<Element ID="{6BCC4A22-3421-4762-AA13-020FB0377652}" Global="false">
 									<ObjectRef Name="__Menu_Music" ID="{7F3C1912-A9F3-4821-BF8D-EFCE343D3889}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Wind" ID="{2C48E5D8-614F-4647-9842-B682C346CE13}">
+					<ChildrenList>
+						<Action Name="Play" ID="{522F5335-85E6-4DD8-A9AC-B6B9E9D2A754}" ShortID="925258128" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CEAB3E5F-A559-45B0-ADE1-245CDE9B26FD}" Global="false">
+									<ObjectRef Name="_Enviornment_Background_Wind" ID="{74F322B7-7276-4138-8D02-8FA6B06BECEE}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Rollercoaster" ID="{C695F6F7-8205-4797-BE37-B709853B7577}">
+					<ChildrenList>
+						<Action Name="Play" ID="{141F54EB-8EA8-4C2D-8C80-2020EF859E62}" ShortID="1053093210" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1CE7E59C-C3A9-4608-823B-EBBC7AD1CF12}" Global="false">
+									<ObjectRef Name="rollercoaster_crank" ID="{48BF4469-655E-417A-AA23-3A08987D24C8}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
 						</Action>

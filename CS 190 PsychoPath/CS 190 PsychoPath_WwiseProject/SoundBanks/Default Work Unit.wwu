@@ -10,7 +10,9 @@
 						<ObjectRef Name="Robot" ID="{D02E0DB7-B7E9-42D6-90FE-2BE19A08BB28}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Doll" ID="{18F7420C-2DE7-443E-ACF9-B140B213035D}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Carousel" ID="{133FE2DD-57F2-44DC-9762-CFAE76DD767F}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_Wind" ID="{2C48E5D8-614F-4647-9842-B682C346CE13}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_bg_game" ID="{E59E818A-695D-4712-B9F4-A424FAB366CF}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_Rollercoaster" ID="{C695F6F7-8205-4797-BE37-B709853B7577}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="IceCreamTruck" ID="{29033471-D0E3-47A8-AFFB-782E3354C04B}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Clown" ID="{E6EFC55D-196E-496A-93BA-2E0591225556}" WorkUnitID="{93E64AB0-B577-4B65-97CF-01FFB53A5E0B}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
