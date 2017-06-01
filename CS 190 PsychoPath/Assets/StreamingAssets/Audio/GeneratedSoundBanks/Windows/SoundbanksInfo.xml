@@ -19,16 +19,16 @@
 				<Event Id="1871169887" Name="Death_clown" ObjectPath="\Events\Default Work Unit\Death_clown"/>
 				<Event Id="1011886111" Name="Death_doll" ObjectPath="\Events\Default Work Unit\Death_doll"/>
 				<Event Id="2276324068" Name="Death_robot" ObjectPath="\Events\Default Work Unit\Death_robot"/>
-				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win"/>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win" MaxAttenuation="20.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="28032928" Language="SFX">
 					<ShortName>__Mascot_Laugh DEATH.wav</ShortName>
 					<Path>SFX\__Mascot_Laugh DEATH_9E69E797.wem</Path>
 				</File>
-				<File Id="322074270" Language="SFX">
-					<ShortName>__Menu_Music.wav</ShortName>
-					<Path>SFX\__Menu_Music_49D988B1.wem</Path>
+				<File Id="48311467" Language="SFX">
+					<ShortName>_Mascot_Music_Box (1).wav</ShortName>
+					<Path>SFX\_Mascot_Music_Box (1)_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="655103130" Language="SFX">
 					<ShortName>__SFX_Ending Death Sound.wav</ShortName>
@@ -37,6 +37,14 @@
 				<File Id="746598491" Language="SFX">
 					<ShortName>__Clown_Laugh_DEATH.wav</ShortName>
 					<Path>SFX\__Clown_Laugh_DEATH_9E69E797.wem</Path>
+				</File>
+				<File Id="839444971" Language="SFX">
+					<ShortName>_Doll_Music_Box.wav</ShortName>
+					<Path>SFX\_Doll_Music_Box_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="941270571" Language="SFX">
+					<ShortName>_Clown_Music_Box.wav</ShortName>
+					<Path>SFX\_Clown_Music_Box_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1047467569" Language="SFX">
 					<ShortName>__Doll_Laugh_DEATH.wav</ShortName>
@@ -64,6 +72,10 @@
 				<Event Id="1930240631" Name="Robot" ObjectPath="\Events\Default Work Unit\Robot" MaxAttenuation="25.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="48311467" Language="SFX">
+					<ShortName>_Mascot_Music_Box (1).wav</ShortName>
+					<Path>SFX\_Mascot_Music_Box (1)_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="103035798" Language="SFX">
 					<ShortName>__Enviornment Background Noise_new.wav</ShortName>
 					<Path>SFX\__Enviornment Background Noise_new_4B8CC0C5.wem</Path>
@@ -90,7 +102,7 @@
 				</File>
 				<File Id="512743422" Language="SFX">
 					<ShortName>carousel_music.wav</ShortName>
-					<Path>SFX\carousel_music_4B8CC0C5.wem</Path>
+					<Path>SFX\carousel_music_E506784A.wem</Path>
 				</File>
 				<File Id="530498253" Language="SFX">
 					<ShortName>__SFX_Music Box Music.wav</ShortName>
@@ -111,6 +123,14 @@
 				<File Id="783914461" Language="SFX">
 					<ShortName>__Clown_Laugh.wav</ShortName>
 					<Path>SFX\__Clown_Laugh_71A82093.wem</Path>
+				</File>
+				<File Id="839444971" Language="SFX">
+					<ShortName>_Doll_Music_Box.wav</ShortName>
+					<Path>SFX\_Doll_Music_Box_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="941270571" Language="SFX">
+					<ShortName>_Clown_Music_Box.wav</ShortName>
+					<Path>SFX\_Clown_Music_Box_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1037329777" Language="SFX">
 					<ShortName>robot_spark_electricity.wav</ShortName>

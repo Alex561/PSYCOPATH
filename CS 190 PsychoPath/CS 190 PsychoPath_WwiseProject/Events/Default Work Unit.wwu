@@ -23,9 +23,16 @@
 				</Event>
 				<Event Name="Clown" ID="{E6EFC55D-196E-496A-93BA-2E0591225556}">
 					<ChildrenList>
-						<Action Name="Play" ID="{6CCD326D-E744-4BEE-9538-011ABDA9B1FB}" ShortID="557368625" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{16EBAA8A-8FB8-41EC-B923-A99FECDCF884}" ShortID="510319433" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{139BC532-017A-4E95-8418-10B1F6130A3C}" Global="false">
+								<Element ID="{EF1C1973-B701-4BD2-A3DC-9E1AFB0F52B9}" Global="false">
+									<ObjectRef Name="clown_horn_fast" ID="{9123E7CC-A02A-4E66-82D9-4459E3644780}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B5EB5061-7A75-4086-A75C-6BD47752B644}" ShortID="120985538" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{660E46C6-2F5B-46F6-A239-E43E642F8299}" Global="false">
 									<ObjectRef Name="Clown" ID="{93109874-6334-43BC-AC38-EA90B9EAE18D}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
@@ -124,10 +131,24 @@
 				</Event>
 				<Event Name="Win" ID="{79984FFC-F088-4108-AC80-200506215D11}">
 					<ChildrenList>
-						<Action Name="Play" ID="{8500313D-24CA-4BC3-AB37-E98D5D1FF6C6}" ShortID="508356510" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{12178363-BA5D-410E-BF91-B4AA55FA18DC}" ShortID="842147386" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{B9B056F3-C4D8-441A-969D-963A5FC2B2E9}" Global="false">
-									<ObjectRef Name="__Menu_Music" ID="{7F3C1912-A9F3-4821-BF8D-EFCE343D3889}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								<Element ID="{6C3AA10D-C353-4350-9B81-A32B9EF3AE43}" Global="false">
+									<ObjectRef Name="_Doll_Music_Box" ID="{9C097085-EE36-4E2B-A832-8D8718B11011}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{37ED45A6-4038-42EC-A038-5E0EF9314EF9}" ShortID="729057594" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2E5A7314-DDFC-4D64-8C5B-3F85D6550601}" Global="false">
+									<ObjectRef Name="_Clown_Music_Box" ID="{D5E0B2D5-0F3A-4BB0-B9F6-CE0A61B0BB24}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{CC1E1804-E379-4FEF-B839-AB919133B749}" ShortID="537351928" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{394C2445-C0C4-4151-ACED-ACEAF8DCD0A9}" Global="false">
+									<ObjectRef Name="_Mascot_Music_Box (1)" ID="{B71E06DE-FF83-4FBD-B58B-19157008F075}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -168,10 +189,10 @@
 				</Event>
 				<Event Name="MusicBox_new" ID="{F86B3BB9-968D-41D8-AC5D-B954AD98D479}">
 					<ChildrenList>
-						<Action Name="Play" ID="{9765CF93-AB58-4981-ACE3-168003FCAF00}" ShortID="554863073" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{4D6B627A-F397-48BF-AD93-D966F307A5B3}" ShortID="987998870" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{55E421F7-3987-45DA-A23E-F755A7ED71B4}" Global="false">
-									<ObjectRef Name="__SFX_Music Box Music" ID="{FC1E6659-B8BB-4AEC-BDB8-E7F45C266739}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
+								<Element ID="{5B7B6767-E1DB-4EF7-902D-AA83E2C3BA2C}" Global="false">
+									<ObjectRef Name="MusicBoxChooser" ID="{21B1DB40-6006-40C9-A537-418C596C14AE}" WorkUnitID="{36BE79CB-353B-4D74-950A-3D25255F3314}"/>
 								</Element>
 							</ElementList>
 						</Action>
