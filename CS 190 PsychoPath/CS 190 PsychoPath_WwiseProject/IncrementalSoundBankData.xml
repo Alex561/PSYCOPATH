@@ -6,13 +6,13 @@
 				<File Name="Death" Hash="3596011116" Timestamp="131408216950937535"/>
 				<File Name="Init" Hash="3763059863" Timestamp="131408194527786249"/>
 				<File Name="Instructions" Hash="2634561287" Timestamp="131408170004900597"/>
-				<File Name="Main" Hash="1955138069" Timestamp="131408218740252155"/>
+				<File Name="Main" Hash="1567273069" Timestamp="131417904738044790"/>
 				<File Name="MainMenu" Hash="3684551033" Timestamp="131405764386165542"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1862985165" Timestamp="131408218740652443"/>
+				<File Name="" Hash="1962511531" Timestamp="131417904738249802"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -22,13 +22,13 @@
 				<File Name="Death" Hash="3596011116" Timestamp="131408207604320466"/>
 				<File Name="Init" Hash="1210621713" Timestamp="131408194459174652"/>
 				<File Name="Instructions" Hash="2634561287" Timestamp="131408170081348328"/>
-				<File Name="Main" Hash="1955138069" Timestamp="131408218741893338"/>
+				<File Name="Main" Hash="53384309" Timestamp="131417903425525966"/>
 				<File Name="MainMenu" Hash="3684551033" Timestamp="131405764387391397"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2018795463" Timestamp="131408218742138491"/>
+				<File Name="" Hash="1670467929" Timestamp="131417903425721106"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

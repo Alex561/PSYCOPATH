@@ -62,12 +62,12 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4103674448" Name="AMB_Carousel" ObjectPath="\Events\Default Work Unit\AMB_Carousel" MaxAttenuation="60.000000"/>
-				<Event Id="3609370565" Name="AMB_Rollercoaster" ObjectPath="\Events\Default Work Unit\AMB_Rollercoaster" MaxAttenuation="60.000000"/>
+				<Event Id="4103674448" Name="AMB_Carousel" ObjectPath="\Events\Default Work Unit\AMB_Carousel" MaxAttenuation="40.000000"/>
+				<Event Id="3609370565" Name="AMB_Rollercoaster" ObjectPath="\Events\Default Work Unit\AMB_Rollercoaster" MaxAttenuation="40.000000"/>
 				<Event Id="1439088316" Name="AMB_Wind" ObjectPath="\Events\Default Work Unit\AMB_Wind" MaxAttenuation="50.000000"/>
 				<Event Id="1384162296" Name="Clown" ObjectPath="\Events\Default Work Unit\Clown" MaxAttenuation="25.000000"/>
 				<Event Id="1894625214" Name="Doll" ObjectPath="\Events\Default Work Unit\Doll" MaxAttenuation="25.000000"/>
-				<Event Id="2816637309" Name="IceCreamTruck" ObjectPath="\Events\Default Work Unit\IceCreamTruck" MaxAttenuation="60.000000"/>
+				<Event Id="2816637309" Name="IceCreamTruck" ObjectPath="\Events\Default Work Unit\IceCreamTruck" MaxAttenuation="40.000000"/>
 				<Event Id="284011213" Name="Music_bg_game" ObjectPath="\Events\Default Work Unit\Music_bg_game"/>
 				<Event Id="2785641797" Name="MusicBox" ObjectPath="\Events\Default Work Unit\MusicBox" MaxAttenuation="25.000000"/>
 				<Event Id="3940140778" Name="MusicBox_new" ObjectPath="\Events\Default Work Unit\MusicBox_new" MaxAttenuation="25.000000"/>
