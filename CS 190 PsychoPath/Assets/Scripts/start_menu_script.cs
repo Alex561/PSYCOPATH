@@ -7,8 +7,8 @@ public class start_menu_script : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -17,6 +17,8 @@ public class start_menu_script : MonoBehaviour {
 
     public void NextScene()
     {
+        AkSoundEngine.StopAll();
+        AkBankManager.UnloadBank("Main");
         UnityEngine.SceneManagement.SceneManager.LoadScene(scene_name);
     }
 }
