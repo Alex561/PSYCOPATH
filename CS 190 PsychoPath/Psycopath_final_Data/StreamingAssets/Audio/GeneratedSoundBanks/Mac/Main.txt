@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	284011213	Music_bg_game			\Default Work Unit\Music_bg_game	
+	1384162296	Clown			\Default Work Unit\Clown	
+	1439088316	AMB_Wind			\Default Work Unit\AMB_Wind	
+	1894625214	Doll			\Default Work Unit\Doll	
+	1930240631	Robot			\Default Work Unit\Robot	
+	2785641797	MusicBox			\Default Work Unit\MusicBox	
+	2816637309	IceCreamTruck			\Default Work Unit\IceCreamTruck	
+	3609370565	AMB_Rollercoaster			\Default Work Unit\AMB_Rollercoaster	
+	3940140778	MusicBox_new			\Default Work Unit\MusicBox_new	
+	4103674448	AMB_Carousel			\Default Work Unit\AMB_Carousel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	48311467	_Mascot_Music_Box (1)	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\_Mascot_Music_Box (1)_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MusicBoxChooser\_Mascot_Music_Box (1)		1612928
+	103035798	__Enviornment Background Noise_new	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Enviornment Background Noise_new_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Enviornment Background Noise_new		3491756
+	204120475	robot_servo_move	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\robot_servo_move_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\robot_servo_move		507968
+	242643820	_Enviornment_Background_Wind	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\_Enviornment_Background_Wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\_Enviornment_Background_Wind		16934528
+	257159643	__Mascot_Advertisement VOX	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Mascot_Advertisement VOX_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\__Mascot_Advertisement VOX		927592
+	279843786	__Mascot_Laugh (1)	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Mascot_Laugh (1)_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot\__Mascot_Laugh (1)		245632
+	378762434	__Enviornment Background Low Pulsation	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Enviornment Background Low Pulsation_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Enviornment Background Low Pulsation		3491756
+	507916557	__Enviornment_Ice Cream Truck Song	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Enviornment_Ice Cream Truck Song_516CEF47.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Enviornment_Ice Cream Truck Song		2413088
+	512743422	carousel_music	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\carousel_music_E506784A.wem		\Actor-Mixer Hierarchy\Default Work Unit\carousel_music		963988
+	530498253	__SFX_Music Box Music	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__SFX_Music Box Music_4EE5E153.wem		\Actor-Mixer Hierarchy\Default Work Unit\__SFX_Music Box Music		883200
+	584338411	__Doll_Laugh	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Doll_Laugh_64663C77.wem		\Actor-Mixer Hierarchy\Default Work Unit\Doll\__Doll_Laugh		623700
+	625982094	__Mascot_Buzzing Sound	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Mascot_Buzzing Sound_7EB86A50.wem		\Actor-Mixer Hierarchy\Default Work Unit\__Mascot_Buzzing Sound		1014888
+	710761721	rollercoaster_crank	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\rollercoaster_crank_114FCFBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\rollercoaster_crank		185532
+	783914461	__Clown_Laugh	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\__Clown_Laugh_7C38A69F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clown\__Clown_Laugh		278992
+	839444971	_Doll_Music_Box	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\_Doll_Music_Box_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MusicBoxChooser\_Doll_Music_Box		1612928
+	941270571	_Clown_Music_Box	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\_Clown_Music_Box_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\MusicBoxChooser\_Clown_Music_Box		1612928
+	1033470484	clown_horn_fast	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\clown_horn_fast_7711EC44.wem		\Actor-Mixer Hierarchy\Default Work Unit\clown_horn_fast		250356
+	1037329777	robot_spark_electricity	C:\Users\Allisah\Desktop\CS 190 Sound Design for Games\Psychopath\PSYCOPATH\CS 190 PsychoPath\CS 190 PsychoPath_WwiseProject\.cache\Mac\SFX\robot_spark_electricity_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\robot_spark_electricity		5851200
+
